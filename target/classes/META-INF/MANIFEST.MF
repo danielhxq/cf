@@ -1,9 +1,9 @@
 Manifest-Version: 1.0
-Built-By: I341698
+Built-By: daniel
 Class-Path: lib/guava-23.0-rc1.jar lib/jsr305-1.3.9.jar lib/error_pron
  e_annotations-2.0.18.jar lib/j2objc-annotations-1.1.jar lib/animal-sn
  iffer-annotations-1.14.jar lib/log4j-1.2.17.jar
-Build-Jdk: 1.8.0_131
+Build-Jdk: 1.8.0_60
 Created-By: Maven Integration for Eclipse
-Main-Class: com.cf.ConnectFourServer
+Main-Class: com.cf.CFServer
 
