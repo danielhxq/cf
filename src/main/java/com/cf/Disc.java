@@ -42,10 +42,10 @@ public class Disc {
 	public void play(int col) {
 		firstPlayer = !firstPlayer;
 		currentPosition ^= mask;
-//		int location = Long.SIZE
-//				- Long.numberOfLeadingZeros((currentPosition | (mask + bottomCheck(col))) & columnCheck(col)) - 1;
-		 int location = convert((currentPosition | (mask + bottomCheck(col)))
-		 & columnCheck(col)).length() - 1;
+		int location = Long.SIZE
+				- Long.numberOfLeadingZeros((currentPosition | (mask + bottomCheck(col))) & columnCheck(col)) - 1;
+//		 int location = convert((currentPosition | (mask + bottomCheck(col)))
+//		 & columnCheck(col)).length() - 1;
 
 		disc[rotate(location)] = firstPlayer ? 'G' : 'R';
 		mask = mask | (mask + bottomCheck(col));
